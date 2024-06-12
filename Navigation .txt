@@ -1,0 +1,15 @@
+Navigation 
+
+cd "D:\Programming\CPP\Computer Networks\2nd program"
+dir
+gcc server.c -o server -lws2_32
+gcc client.c -o client -lws2_32
+.\server.exe
+.\client.exe
+
+
+gcc encrypt_decrypt.c -o encrypt_decrypt.exe
+.\encrypt_decrypt.exe
+
+gcc dijkstra_algorithm.c -o diju.exe
+./diju.exe
